@@ -5,7 +5,5 @@ Werkzeug==1.0.1
 email-validator
 markupsafe==2.0.1
 mysql-connector-python
-numpy
-pandas
 passlib
 psycopg2-binary

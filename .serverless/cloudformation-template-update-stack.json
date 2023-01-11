@@ -161,7 +161,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-movie-flask-app/dev/1673415406771-2023-01-11T05:36:46.771Z/aws-movie-flask-app.zip"
+          "S3Key": "serverless/aws-movie-flask-app/dev/1673422760573-2023-01-11T07:39:20.573Z/aws-movie-flask-app.zip"
         },
         "Handler": "wsgi_handler.handler",
         "Runtime": "python3.9",
@@ -179,14 +179,14 @@
         "ApiLogGroup"
       ]
     },
-    "ApiLambdaVersionMtA8oMlAGUETUyonoi6U8HAz1lGyn9c7MZGxYjCQZKE": {
+    "ApiLambdaVersionXQ0hwhnvWLStQZZVBDB6IncHfuRDszzLmcNtdU1I5c": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "z6V7JKjmUol7P6LL5SzXP7G/TyGe7nifukl0KFsBVCQ="
+        "CodeSha256": "k1ExORO7LRK7jzZCQlroPfDC4tO8qda1gn2G96TAsNo="
       }
     },
     "HttpApi": {
@@ -297,7 +297,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionMtA8oMlAGUETUyonoi6U8HAz1lGyn9c7MZGxYjCQZKE"
+        "Ref": "ApiLambdaVersionXQ0hwhnvWLStQZZVBDB6IncHfuRDszzLmcNtdU1I5c"
       },
       "Export": {
         "Name": "sls-aws-movie-flask-app-dev-ApiLambdaFunctionQualifiedArn"
