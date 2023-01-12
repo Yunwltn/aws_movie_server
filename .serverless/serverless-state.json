@@ -173,7 +173,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-movie-flask-app/dev/1673483464087-2023-01-12T00:31:04.087Z/aws-movie-flask-app.zip"
+                "S3Key": "serverless/aws-movie-flask-app/dev/1673485092382-2023-01-12T00:58:12.382Z/aws-movie-flask-app.zip"
               },
               "Handler": "wsgi_handler.handler",
               "Runtime": "python3.9",
@@ -191,14 +191,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersionERTqI7NSXKueqZhQpWChIXjZuxblQyBntXNshY22ZOY": {
+          "ApiLambdaVersionXt5i86pqX6N4AkpTcJLj8QfywcbyO0zhMp9bGXvRIQ": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "aYphziXScNP+crWcQo/v0Sp5/O72LnSWnnffxLQKTvc="
+              "CodeSha256": "oCuYy3FdGT6aCYAH2q7PNfqfyA/BHMIyI00HJej7ORI="
             }
           },
           "HttpApi": {
@@ -306,7 +306,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersionERTqI7NSXKueqZhQpWChIXjZuxblQyBntXNshY22ZOY"
+              "Ref": "ApiLambdaVersionXt5i86pqX6N4AkpTcJLj8QfywcbyO0zhMp9bGXvRIQ"
             },
             "Export": {
               "Name": "sls-aws-movie-flask-app-dev-ApiLambdaFunctionQualifiedArn"
@@ -457,7 +457,7 @@
         "timeout": 6,
         "runtime": "python3.9",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersionERTqI7NSXKueqZhQpWChIXjZuxblQyBntXNshY22ZOY"
+        "versionLogicalId": "ApiLambdaVersionXt5i86pqX6N4AkpTcJLj8QfywcbyO0zhMp9bGXvRIQ"
       }
     },
     "configValidationMode": "warn",
@@ -483,7 +483,7 @@
     "artifact": "C:\\Users\\5-13\\Documents\\GitHub\\aws_movie_server\\.serverless\\aws-movie-flask-app.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-movie-flask-app/dev/1673483464087-2023-01-12T00:31:04.087Z",
+    "artifactDirectoryName": "serverless/aws-movie-flask-app/dev/1673485092382-2023-01-12T00:58:12.382Z",
     "artifact": "aws-movie-flask-app.zip"
   }
 }
