@@ -104,7 +104,7 @@ class UserLoginResource(Resource) :
 
         access_token = create_access_token( result_list[0]['id'] )
 
-        return {"result" : "success", "access_token" : access_token}, 200
+        return {"result" : "success", "access_token" : access_token, "msg" : "hello"}, 200
 
 jwt_blacklist = set()
 
